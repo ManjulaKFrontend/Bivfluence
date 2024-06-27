@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* root */
+:root{
+ --btn-color1:#ec2c2c;
+--btn-color2:#fc549c;
+--h-bg-color1:#181c44;
+--h-bg-color2:#5c1c38;
+--h1f-size:45px;
+--uniq1:#ffb5b0;
+--uniq2:#ffbc92;
+--uniq3:#b3f5bc;
+--uniq4:#ffd4f4;
+--uniq5:#e8ccfc;
+--uniq-img-bg:#ffbcc4;
+}
+body{
+    font-family: "Roboto,sans-serif";
+}
+
+button{
+background: linear-gradient(to right,#ec2c2c , #fc549c)!important;
+}
+nav button {
+color: white!important;
+}
+/* hero section */
+.hero{
+background: linear-gradient(to right,#181c44 ,#80243b )!important;   
+}
+.hero h1{
+    font-size: var(--h1f-size)!important;
+}
+.hero .h1span{
+  color: #ec2c2c;
+} 
+.hero .pspan{
+    color: #ec2c2c;
+}
+/* upskill start */
+.upskill-container{
+    width: 100% !important;
+    min-height: 45vh !important;
+    position:relative !important;
+    background-color: #afa5d4;
+}
+.upskill{
+    width: 100% !important;
+    background-image: url(images/Mask\ Group\ 19.png) !important;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    position:absolute !important;
+    min-height:45vh !important ;
+}
+.upskillhead{
+    color: #181c44;
+}
+.upskill-body{
+    min-height:45vh !important;
+}
+.upskillimagecolumn{
+    position: relative !important;
+    object-fit: cover;
+}
+.upskillimage{
+    height:60vh !important;
+    position:absolute;
+    margin-top: -140px;
+}
+.upskillimage img{
+    height:110%;
+    width:100%;
+} 
+h2,h1{
+    font-weight: bold!important;
+}
+  /*media query  */
+@media only screen and (max-width:500px) and (min-width:200px){
+    .upskillhead{
+        padding-top: 40px!important;
+    }
+    .upskill-container{
+    height: 105vh;
+    } 
+    .techSector{
+        padding: 20px 0!important;
+    } 
+    .upskillimage{
+    margin-top: 280px;
+    padding: 50px 20px;
+    justify-content: center;
+    }
+    body{
+    text-align: justify!important;
+    }
+    .hero h1{
+    font-size: 30px!important;
+    }
+}
+/* uniq */
+.uniq1{
+    background-color: var(--uniq1)!important;
+}
+.uniq2{
+    background-color: var(--uniq2)!important;
+}
+.uniq3{
+    background-color: var(--uniq3)!important;
+}
+.uniq4{
+    background-color: var(--uniq4)!important;
+}
+.uniq5{
+    background-color: var(--uniq5)!important;
+}
+.uniq-bg{
+    background-color: var(--uniq-img-bg)!important;
+}
+/* growth */
+.nav-pills{
+    justify-content: center!important;
+    align-items: center!important;
+    display: flex!important;
+    max-width: 100%!important;
+}
+.cardp{
+    background: linear-gradient(to right,#ffb5b083 , white)!important;  
+}
+/* blog */
+.blog a{
+ text-decoration: underline!important;
+}
+.blog h1 span{
+    color: #ec2c2c!important;
+}
+.blog h1 .women{
+    font-size: 43px!important;
+}
+/* footer section  */
+.footer{
+    background-color: #181c44!important;
+}
+.footer a{
+    text-decoration: none!important;
+}
+.foot{
+    background-color: #ec2c2c;
+
+}
+.foot p{
+    background-color: #181c44!important;
+}
+
